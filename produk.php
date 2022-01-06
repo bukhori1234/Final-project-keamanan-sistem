@@ -8,8 +8,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RAR Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Fashion House</title>
+    <link rel="icon" type="image/x-icon" href="img/logotb.png"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
@@ -17,7 +18,7 @@
     <!--Header-->
     <header>
     <div class="container">
-        <h1><a href="index.php">RAR Project</a></h1>
+        <h1><a href="index.php">Fashion House</a></h1>
         <ul>
             <li><a href="produk.php">Produk</a></li>
             <li><a href="login.php">Admin? Login Disini</a></li>
@@ -66,15 +67,7 @@
         <!--footer-->
         <div class="footer">
             <div class="container">
-                <h4>Muhammad Adrian Maulana</h4>
-                <p>1910631170103</p>
-
-                <h4>Muhammad Ardana</h4>
-                <p>1910631170103</p>
-
-                <h4>Rio Adam</h4>
-                <p>1910631170103</p>
-                <small>Copyright &copy; 2021 - RAR Project</small>
+                <small>Copyright &copy; 2022 - Fashion House</small>
             </div>
         </div>
             

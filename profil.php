@@ -13,8 +13,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | RAR Project</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login | Fashion House</title>
+    <link rel="icon" type="image/x-icon" href="img/logotb.png"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
@@ -22,7 +23,7 @@
     <!--Header-->
     <header>
     <div class="container">
-        <h1><a href="dashboard.php">RAR Project</a></h1>
+        <h1><a href="dashboard.php">Fashion House</a></h1>
         <ul>
             <li><a href="dashboard.php">Dashboard</a></li>
             <li><a href="profil.php">Profil</a></li>
@@ -78,12 +79,13 @@
                     if(isset($_POST['ubah_password'])){
                         $pass1 = $_POST['pass1'];
                         $pass2 = $_POST['pass2'];
+                        $password = password_hash($pass1, PASSWORD_DEFAULT, ['cost' => 15]);
 
                         if($pass2 != $pass1){
                             echo '<script>alert("konfirmasi Password Tidak Sesuai")</script>';
                         }else {
                             $u_pass = mysqli_query($conn, "UPDATE admin SET
-                                    password = '".$pass1."'
+                                    password = '".$password."'
                                     WHERE admin_id = '".$d->admin_id."' ");
                             if($u_pass){
                                 echo '<script>alert("Berhasil Update Data")</script>';
@@ -101,7 +103,7 @@
     <!--Footer-->
     <footer>
         <div class="container">
-            <small>Copyright &copy; 2021 - RAR Project</small>
+            <small>Copyright &copy; 2022 - Fashion House</small>
         </div>
     </footer>
 </body>
