@@ -79,13 +79,13 @@
                     if(isset($_POST['ubah_password'])){
                         $pass1 = $_POST['pass1'];
                         $pass2 = $_POST['pass2'];
-
+                        $password = password_hash($pass1, PASSWORD_DEFAULT, ['cost' => 15]);
 
                         if($pass2 != $pass1){
                             echo '<script>alert("konfirmasi Password Tidak Sesuai")</script>';
                         }else {
                             $u_pass = mysqli_query($conn, "UPDATE admin SET
-
+                                    password = '".$password."'
                                     WHERE admin_id = '".$d->admin_id."' ");
                             if($u_pass){
                                 echo '<script>alert("Berhasil Update Data")</script>';

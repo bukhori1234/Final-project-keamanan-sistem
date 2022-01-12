@@ -24,7 +24,24 @@
                 include 'db.php';
                 $user = mysqli_real_escape_string ($conn,$_POST['user']);
                 $pass = mysqli_real_escape_string ($conn,$_POST['pass']);
-
+                $password = $_POST['pass'];
+                $cek = mysqli_query($conn, "SELECT * FROM admin WHERE username = '".$user."'");
+                $passworddb = $cek->fetch_assoc();
+                
+                if (password_verify($password, $passworddb['password'])) {
+                    $data = mysqli_query($conn, "SELECT * FROM admin WHERE username = '".$user."'");
+                    
+                    if (mysqli_num_rows($data) > 0){
+                        $d = mysqli_fetch_object($data);
+                        $_SESSION['status_login'] = true;
+                        $_SESSION['a_global'] = $d;
+                        $_SESSION['id'] = $d->admin_id;
+                        echo '<script>window.location="dashboard.php"</script>';
+                    }else{
+                        echo '<script>alert("Username atau Password anda salah")</script>';
+                    }
+                }
+                
             }
         ?>
     </div>
