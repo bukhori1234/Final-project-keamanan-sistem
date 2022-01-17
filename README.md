@@ -1,6 +1,6 @@
 # Final-project-keamanan-sistem
--Pembuatan web untuk project uas keamanan sistem 
--Tema: sistem penjualan pakaian berbasis website
+#Pembuatan web untuk project uas keamanan sistem 
+#Tema: sistem penjualan pakaian berbasis website
 ---FASHION HOUSE---
 
 ![logo project (tanpa background)](https://user-images.githubusercontent.com/97869967/149716759-7237a181-b7b4-4bc5-afde-52f4b021e77d.png)
