@@ -1,6 +1,7 @@
 # Final-project-keamanan-sistem
 pembuatan web untuk project uas keamanan sistem 
 FASHION HOUSE
+![logo project (tanpa background)](https://user-images.githubusercontent.com/97869967/149716759-7237a181-b7b4-4bc5-afde-52f4b021e77d.png)
 
 
 
