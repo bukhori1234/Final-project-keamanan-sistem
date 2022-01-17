@@ -9,3 +9,6 @@ Profil
 
 Data Kategori
 ![data kategori](https://user-images.githubusercontent.com/84075404/149714104-40616b79-83da-4532-9b3b-8dca98df94e3.png)
+
+Data Produk
+![UI Data Produk Admin](https://user-images.githubusercontent.com/97815273/149716594-256cc50e-d480-4f6a-a6bf-c7a2f0efffa4.png)
