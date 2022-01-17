@@ -12,3 +12,9 @@ Data Kategori
 
 Data Produk
 ![UI Data Produk Admin](https://user-images.githubusercontent.com/97815273/149716594-256cc50e-d480-4f6a-a6bf-c7a2f0efffa4.png)
+
+Home User
+![UI Home User](https://user-images.githubusercontent.com/97815273/149716768-469330ed-46b0-4ed5-93e9-374f35b37dfe.png)
+
+Produk User
+![UI Produk User](https://user-images.githubusercontent.com/97815273/149716777-d585b597-fb52-4661-b466-8cee81787569.png)
