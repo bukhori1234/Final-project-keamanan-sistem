@@ -5,7 +5,7 @@
 
 ![logo project (tanpa background)](https://user-images.githubusercontent.com/97869967/149716759-7237a181-b7b4-4bc5-afde-52f4b021e77d.png)
 
-Ririn Nur Fauziyah	1910631170040
+\nRirin Nur Fauziyah	1910631170040
 Sahru Ramadan	1910631170042
 Modesta Rika Pertiwi	1910631170098
 Mohammad Bukhori Pratama	1910631170100
